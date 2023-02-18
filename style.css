@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(27,40,56,255);
+    width: 100vw;
+    height: 100vw;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 104px;
+    padding: 0px 16px ;
+    background-color: rgba(23,26,33,255);
+    font-family: 'Motiva Sans', sans-serif;
+    color: #b8b6b4;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimage{
+    float: left;
+    margin-right: 40;
+    padding-top: 30;
+    width: 176px;
+    height: 44px;
+}
+
+
+.supernav{
+    font-weight: 300;
+    font-size: 14px;
+    padding: 7px;
+}
+
+h2#tienda{
+    margin-left: 24px;
+}
+
+div.botones{
+    display: flex;
+    font-size: 11px;
+}
+
+.botonestop{
+    margin: 0px 10px;
+    display: grid;
+}
+
+
+#boton_instalar{
+    background-color: #616a72;
+    width: 120px;
+    height: 23.99px;
+    padding-left: 35px;
+    background-position: 10px 5px;
+    background-image: url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    color: #e5e4dc;
+}
+
+#boton_instalar{
+    line-height: 24px;
+}
+
+button#notificaciones{
+    background-color: #292929;
+    border: 0px;
+    width: 10.966;
+    height: 23.994px;
+    padding: 8px 8px 0px 8px;
+}
+
+#usuario{
+   font-weight: 150; 
+}
+
+div.botones{
+    position: relative;
+    bottom: 25%;
+    left: 2%;
+    
+}
+
+section.Spnav{
+    display: flex;
+    width: 389px;
+    height: 68px;
+    align-items: center;
+}
+
+nav.nav_tienda{
+    display: flex;
+    width: 940px;
+    height: 30px;
+    margin: 5px 20% 10px;
+    background: linear-gradient(to right, rgba(59,100,144,255),  rgba(16,34,110,255));
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    align-items: center;
+}
+
+.nav{
+    padding: 0px 10px 0px 15px;
+    text-shadow: 2px #292929;
+}
+
+button.wishlist{
+    height: 20px;
+    padding: 0px 25px;
+    background-color: #77a1ab;
+    box-shadow: 0 0 3px #000;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11px;
+    position: relative;
+    left: 68.70%;
+    margin-left: 1px;
+    margin-top: 9px;
+    border: 0;
+}
+
+div.hero_image{
+    display: flex;
+    justify-content: center;
+}
+
+/*Menu Lateral*/
+
+aside{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    flex-direction: column;
+    width: 210px;
+    height: 1189px;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 13px;
+}
+
+h3.titulos_aside{
+    margin: 7px 0px;
+    color: #c6d4df;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11px;
+}
+
+p.links_aside{
+    margin: 7px 0px;
+    color: #66c0f4;
+}
+
+/*Seccion Principal*/
+
+article.principal{
+    display: flex;
+    width: 940px;
+    height: 412px;
+    padding: 20px 19.434px;
+}
+
+section.cod{
+    display: flex;
+}
+
+article.image_big{
+   display: flex;
+   width: 615px;
+   height: 350px;  
+   margin: 0px;   
+}
+
+article.info{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://store.akamai.steamstatic.com/public/images/v6/home/background_maincap_2.jpg);
+    width: 314px;
+    height: 352px;
+    margin: 0px;
+}
+
+.titulo h2{
+    padding-left: 10px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 20;
+}
+
+article.images{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+article.reason h2{
+    padding-left: 10px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 21px;
+    font-weight: 200;
+    min-height: auto;
+}
+
+.vendido{
+    padding-left: 17px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 10;
+    min-height: auto;
+}
+
+.precio{
+    margin-top: 65px;
+    padding-left: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.windows_logo{
+    display: flex;
+    position: relative;
+    left: 280px;
+    bottom: 20px;
+}
+
+.boton{
+    position: relative;
+    background: -webkit-linear-gradient( left, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
+    top: 35%;
+    width: 40px;
+    height: 36px;
+    padding: 54px 23px;
+}
+
+/*Ofertas Especiales*/
+
+section.ofertas{
+    display: flex;
+    width: 940px;
+    height: 412px;
+    column-gap: 9px;
+    
+}
+
+.content{
+    background-image: url(https://store.akamai.steamstatic.com/public/images/v6/home/background_spotlight.jpg);
+    width:306px;
+    height: 113px;
+}
+
+div.of_esp{
+    width: 306px;
+    height: 100%;
+}
+
+article.mini_spotlights{
+    background: -webkit-linear-gradient( top, #ffffff 5%, #abdaf4 95%);
+    background: linear-gradient( to bottom, #ffffff 5%, #abdaf4 95%);
+}
+
+.mini_content{
+    display: inline-block;
+    position: relative;
+}
+
+.content h3{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 10px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    padding-top: 2px;
+
+}
+
+.content p{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #acdbf5;
+}
+
+div.descuento{
+    display: flex;
+
+}
+
+.boton_descuento{
+    align-items: center;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    font-weight: 500;
+    color: #BEEE11;
+    background: #4c6b22;
+    display: inline-block;
+}
+
+.descuento h4{
+    display: flex;
+    font-family: "Motiva Sans", Sans-serif;;
+    font-weight: 300;
+}
+
+.boton_precio{
+    position: relative;
+    top: 12px;
+    left: 30px;
+    width: 110px;
+    height: 44px;
+    padding: 0 8px 0 8px;
+    font-size: 11px;
+}
+
+.boton_precio2{
+    position: relative;
+    top: 23px;
+    right: 98px;
+    color: #BEEE11;
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    margin-top: 700px;
+    background-color: rgba(23,26,33,255);
+}
+
+
+div.footer_logo{
+    display: flex;
+    width: 150px;
+    height: 60px;
+    justify-content: space-between;
+
+}
